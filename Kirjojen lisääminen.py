@@ -30,10 +30,14 @@ def add_books():
 
 })
 
-    print("Book added successfully!")
 
-    for book in library:
-        print(
-        f"{book["title"]} by {book["author"]}, {book["isbn"]}", 
-        f"{book["genre"]}, available copies: {book["copies"]}"
+add_books(library)
+
+
+print("Book added succesfully:")
+
+for book in library:
+      print(
+           f"{book["title"]} by {book["author"]}, {book["isbn"]}", 
+           f"{book["genre"]}, available copies: {book["copies"]}"
     )
