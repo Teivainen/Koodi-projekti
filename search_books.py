@@ -2,13 +2,13 @@
 library = []
 
 #hakukenttä
-search = input("Hae kirja nimellä tai kirjailijan nimellä: ").lower()
+search = input("Search a book by its name or author: ").lower()
 found = False
 
 for title, author in library: #hakee joko kirjan tai kirjailijan nimellä
     if search in title.lower() or search in author.lower():
-        print("Löytyi:", title, "-", author)
+        print("Found:", title, "-", author)
         found = True
 
 if not found:
-    print("Ei osumia hakusanalla.")
+    print("No results.")
