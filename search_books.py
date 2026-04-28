@@ -13,5 +13,3 @@ for title, author in library: #hakee joko kirjan tai kirjailijan nimellä
 
 if not found:
     print("No results.")
-
-search_books(library)
