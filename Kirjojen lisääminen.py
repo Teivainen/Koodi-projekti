@@ -14,7 +14,7 @@ library = [
         "copies": 1
     }
 ]
-def add_books(library):
+def add_books():
     isbn = input("Please enter ISBN: ")
     title = input("Please enter title: ")
     author = input("Please enter author: ")
@@ -30,13 +30,10 @@ def add_books(library):
 
 })
 
-print("Book added successfully!")
+    print("Book added successfully!")
 
-add_books(library)
-
-
-for book in library:
-    print(
-        f"{book["title"]} by {book["author"]}, {book["isbn"]}" 
+    for book in library:
+        print(
+        f"{book["title"]} by {book["author"]}, {book["isbn"]}", 
         f"{book["genre"]}, available copies: {book["copies"]}"
     )
