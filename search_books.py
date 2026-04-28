@@ -1,10 +1,5 @@
 #lista kirjoista, "kirjan nimi, kirjailija"
-library = [
-    ("Taikatalvi", "Tove Jansson"),
-    ("kissakissa", "Linna Mari"),
-    ("Koira", "Puuha Pete"),
-    ("Jäätelö", "Ensio Sankari")
-]
+library = []
 
 #hakukenttä
 search = input("Hae kirja nimellä tai kirjailijan nimellä: ").lower()
