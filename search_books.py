@@ -7,7 +7,7 @@ def search_books(library):
 found = False
 
 for title, author in library: #hakee joko kirjan tai kirjailijan nimellä
-    if search_books in title.lower() or search_books in author.lower():
+    if search in title.lower() or search in author.lower():
         print("Found:", title, "-", author)
         found = True
 
